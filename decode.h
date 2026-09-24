@@ -1,4 +1,3 @@
-```c
 #ifndef DECODE_H
 #define DECODE_H
 
@@ -53,4 +52,3 @@ Status decode_secret_file_size(DecodeInfo *decInfo);
 Status decode_secret_file_data(DecodeInfo *decInfo);
 
 #endif
-```
