@@ -52,8 +52,4 @@ Status decode_secret_file_size(DecodeInfo *decInfo);
 /* Decode secret file data */
 Status decode_secret_file_data(DecodeInfo *decInfo);
 
-<<<<<<< HEAD
 #endif
-=======
-#endif
->>>>>>> 13ba964 (Added decoding functionality)
