@@ -3,6 +3,8 @@
 #include <string.h>
 #include "decode.h"
 #include "types.h"
+char decode_byte_from_lsb(char *image_buffer);
+int decode_size_from_lsb(char *image_buffer);
 #include "common.h"
 
 /* Function Definitions */
@@ -14,15 +16,6 @@
  * Output: Operation type
  * Return Value: e_decode or e_unsupported
  */
-OperationType check_operation_type(char opt)
-{
-    if(opt == 'd')
-    {
-        return e_decode;
-    }
-
-    return e_unsupported;
-}
 
 
 /*

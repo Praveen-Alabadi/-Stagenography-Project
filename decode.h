@@ -1,3 +1,4 @@
+
 #ifndef DECODE_H
 #define DECODE_H
 
@@ -37,7 +38,7 @@ Status do_decoding(DecodeInfo *decInfo);
 Status open_decfiles(DecodeInfo *decInfo);
 
 /* Decode magic string */
-Status decode_magic_string(const char *magic_string, DecodeInfo *decInfo);
+Status decode_magic_string(char *magic_string, DecodeInfo *decInfo);
 
 /* Decode secret file extension size */
 Status decode_secret_file_extn_size(DecodeInfo *decInfo);
@@ -51,4 +52,8 @@ Status decode_secret_file_size(DecodeInfo *decInfo);
 /* Decode secret file data */
 Status decode_secret_file_data(DecodeInfo *decInfo);
 
+<<<<<<< HEAD
 #endif
+=======
+#endif
+>>>>>>> 13ba964 (Added decoding functionality)
